@@ -3,11 +3,11 @@ import { Icon } from "astro-icon";
 import ContentSection from "~/components/content-section.astro";
 ---
 
-<ContentSection title="Just ship less" id="intro">
+<ContentSection title="Code & Mate" id="intro">
   <!-- <Icon slot="eyebrow" name="logomark" class="h-32" /> -->
-  <img slot="eyebrow" src="/public/Logo.png" class="h-24 w-22 md:h-32" />
+  <img slot="eyebrow" src="/src/assets/Logo.png" class="h-24 w-22 md:h-32" />
   <Fragment slot="lead">
-    Astro is a new kind of site builder for the
+    Code & Mate is a new Consulting that does kind of site builder for the
     <span class="text-primary">modern</span> web.
     <span class="text-primary">Lightning-fast</span>
      performance meets <span class="text-primary">powerful</span> developer
@@ -15,18 +15,19 @@ import ContentSection from "~/components/content-section.astro";
   </Fragment>
   <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
     <a
-      href="https://docs.astro.build/"
+      href="#features"
       class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
     >
       <Icon pack="mdi" name="telescope" class="h-8" />
-      <span>Read the docs</span>
+      <span>Know Us</span>
     </a>
     <a
-      href="https://astro.new/"
+      href="https://www.codeandmate.com.ar/"
+      target="_blank"
       class="flex items-center justify-center gap-3 border-2 border-current px-6 py-4"
     >
       <Icon pack="mdi" name="rocket" class="h-8" />
-      <span>Try it out</span>
+      <span>Academy</span>
     </a>
   </div>
 </ContentSection>
