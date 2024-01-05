@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 190 190">
-  <path
-    fill="currentColor"
-    fill-rule="evenodd"
-    d="M87 14c23-15 56-8 72 15v1a50 50 0 0 1 9 38c-1 6-4 12-7 17a50 50 0 0 1-3 51c-4 5-8 10-14 13l-41 26a54 54 0 0 1-81-33v-20c1-7 3-13 7-18a50 50 0 0 1 2-50c4-6 9-10 14-14l42-26ZM63 161c6 2 13 3 20 1l8-4 41-26a28 28 0 0 0 13-31l-5-11a33 33 0 0 0-35-13l-9 4-15 10a9 9 0 0 1-9 0 10 10 0 0 1-6-6v-4a9 9 0 0 1 4-6l41-26 3-1a10 10 0 0 1 10 4l2 6v1l1 1c6 2 12 4 16 8l3 1v-2l1-4a30 30 0 0 0-5-23 33 33 0 0 0-35-13l-8 4-42 26a28 28 0 0 0-13 19 30 30 0 0 0 6 23 33 33 0 0 0 35 13c3 0 5-2 8-3l16-10 2-2a10 10 0 0 1 12 8l1 3a9 9 0 0 1-4 6l-42 26-2 1a10 10 0 0 1-12-10v-1l-2-1c-6-1-11-4-16-8l-2-1-1 2-1 4a30 30 0 0 0 5 23c4 5 10 10 16 12Z"
-    clip-rule="evenodd"
-  />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3" /><path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3" /><path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>

@@ -1,11 +1,1 @@
-<svg viewBox="0 0 190 190" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path
-    d="M149.4 17.0008H185.426L95.3608 172.999L5.2959 17.0008H41.3223L95.3611 110.598L149.4 17.0008Z"
-    fill="currentColor"
-  />
-  <path
-    d="M116.16 17.0007L95.3604 53.0268L74.5613 17.0007H41.3223L95.3611 110.598L149.4 17.0007H116.16Z"
-    fill="currentColor"
-    fill-opacity="0.45"
-  />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-leaf" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 21c.5 -4.5 2.5 -8 7 -10" /><path d="M9 18c6.218 0 10.5 -3.288 11 -12v-2h-4.014c-9 0 -11.986 4 -12 9c0 1 0 3 2 5h3z" /></svg>
