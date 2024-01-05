@@ -5,16 +5,31 @@ import type { FooterLink } from "~/types";
 
 const links: Array<FooterLink> = [
   {
-    url: "https://astro.build/",
-    description: "Astro's official website",
-    icon: "mdi:home",
+    url: "https://codeandmate.com.ar/",
+    description: "Code & Mate Academy official website",
+    icon: "mdi:school",
   },
-  {
-    url: "https://github.com/mhyfritz/astro-landing-page",
-    description: "View source on GitHub",
+  /* {
+    url: "https://github.com/CodeAndMate",
+    description: "Code & Mate on GitHub",
     icon: "fa-brands:github-alt",
+  }, */
+  {
+    url: "https://api.whatsapp.com/send?phone=5491123973213",
+    description: "Code & Mate on Whatsapp",
+    icon: "fa-brands:whatsapp",
   },
   {
+    url: "https://www.linkedin.com/company/code-mate/",
+    description: "Code & Mate on LinkedIn",
+    icon: "fa-brands:linkedin",
+  },
+  {
+    url: "https://www.instagram.com/codeandmate_ok/",
+    description: "Code & Mate on Instagram",
+    icon: "fa-brands:instagram",
+  },
+  /* {
     url: "https://astro.build/chat",
     description: "Astro on Discord",
     icon: "fa-brands:discord",
@@ -23,7 +38,7 @@ const links: Array<FooterLink> = [
     url: "https://twitter.com/astrodotbuild",
     description: "Astro on Twitter",
     icon: "fa-brands:twitter",
-  },
+  }, */
 ];
 ---
 
@@ -38,6 +53,7 @@ const links: Array<FooterLink> = [
           <a
             class="flex h-16 w-16 items-center justify-center rounded-full border-2 border-current p-4"
             href={link.url}
+            target="_blank"
           >
             <span class="sr-only">{link.description}</span>
             <Icon class="h-full" name={link.icon} />
