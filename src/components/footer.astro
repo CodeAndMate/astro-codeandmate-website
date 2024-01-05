@@ -41,12 +41,19 @@ const links: Array<FooterLink> = [
   }, */
 ];
 ---
-
+<div class=" inset-0 bg-slate-900 opacity-75">
+  <div class=" inset-0 bg-gradient-to-r from-slate-900 to-transparent">
+    <p class="text-center text-slate-100 text-2xl font-bold p-4">
+      Conocenos en nuestras <span class="text-primary">Redes</span> y <span class="text-primary">Contactanos</span> para consultas
+    </p>
+  </div>
+</div>
 <footer class="relative flex h-64 items-center justify-center">
+  
   <div class="absolute inset-0 overflow-hidden opacity-40">
     <HeroImage />
   </div>
-  <ul class="relative grid grid-cols-2 gap-4 sm:grid-cols-4">
+  <ul class="relative grid grid-cols-4 gap-4 sm:grid-cols-4">
     {
       links.map((link) => (
         <li>
